@@ -9,8 +9,8 @@ export function Footer() {
         <p>
           <span>&copy;</span> 2023 Darek Radke
         </p>
-        <Link href={"/"} className="font-BebasNeue text-2xl">
-          Insight Fitness
+        <Link href={"/"} className="font-Anton text-2xl">
+          Insight Personal Training
         </Link>
         <Link href={"/contact"} className="text-xl">
           Free Evaluations!

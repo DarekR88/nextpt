@@ -54,7 +54,7 @@ export function NavBar() {
         </Link>
       </div>
       <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen bg-gradient-to-t from-button-primary to-yellow-400 lg:flex-row lg:justify-between lg:px-20 lg:h-28">
-        <Link href={"/"} className="flex flex-col font-BebasNeue tracking-widest text-xl z-0 px-3">
+        <Link href={"/"} className="font-Anton flex flex-col tracking-widest text-xl z-0 px-3">
           <p className="text-2xl">Insight</p>
           <p className="text-base">Personal</p>
           <p className="text-base">Training</p>
@@ -81,24 +81,12 @@ export function NavBar() {
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/">
             Home
           </Link>
-          {/* <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/howitworks">
-            How it Works
-          </Link> */}
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/pricing">
             Plans & Pricing
           </Link>
-          {/* <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/programs">
-            Programs
-          </Link> */}
-          {/* <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/nutrition">
-            Nutrition
-          </Link> */}
-          {/* <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/testimonials">
-            Testimonials
-          </Link> */}
-          {/* <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/contact">
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/contact">
             Contact
-          </Link> */}
+          </Link>
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/about">
             About
           </Link>
@@ -111,13 +99,13 @@ export function NavBar() {
           >
             <Image src={InstaIcon} alt="pfp" width={27} />
           </a>
-          {/* <a
+          <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"
             rel="noreferrer noopener"
           >
             <Image src={FacebookIcon} alt="pfp" width={25} />
-          </a> */}
+          </a>
           {/* <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"
@@ -125,13 +113,13 @@ export function NavBar() {
           >
             <Image src={XIcon} alt="pfp" width={23} />
           </a> */}
-          <a
+          {/* <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"
             rel="noreferrer noopener"
           >
             <Image src={TiktokIcon} alt="pfp" width={25} />
-          </a>
+          </a> */}
         </div>
         <button
           onClick={handleClick}
