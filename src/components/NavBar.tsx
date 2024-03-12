@@ -53,7 +53,7 @@ export function NavBar() {
           About
         </Link>
       </div>
-      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen bg-gradient-to-t from-button-primary to-yellow-400 lg:flex-row lg:justify-between lg:px-20 lg:h-28">
+      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28">
         <Link href={"/"} className="font-Anton flex flex-col tracking-widest text-xl z-0 px-3">
           <p className="text-2xl">Insight</p>
           <p className="text-base">Personal</p>
