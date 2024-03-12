@@ -4,3 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg-primary: #606773;
+  --bg-secondary: #999faa;
+  --bg-tertiary: #ffffff;
+  --font-primary: #ffffff;
+  --font-secondary: #82b7dc;
+  --button-primary: #4996cc;
+  --button-secondary: #094947; 
+}
