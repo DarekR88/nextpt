@@ -31,11 +31,11 @@ export function NavBar() {
         <Link onClick={handleClick} className="text-3xl" href="/">
           Home
         </Link>
-        <Link onClick={handleClick} className="text-3xl" href="/howitworks">
+        {/* <Link onClick={handleClick} className="text-3xl" href="/howitworks">
           How it Works
-        </Link>
+        </Link> */}
         <Link onClick={handleClick} className="text-3xl" href="/pricing">
-          Pricing
+          Plans & Pricing
         </Link>
         {/* <Link onClick={handleClick} className="text-3xl" href="/programs">
           Programs
@@ -43,9 +43,9 @@ export function NavBar() {
         {/* <Link onClick={handleClick} className="text-3xl" href="/nutrition">
           Nutrition
         </Link> */}
-        <Link onClick={handleClick} className="text-3xl" href="/testimonials">
+        {/* <Link onClick={handleClick} className="text-3xl" href="/testimonials">
           Testimonials
-        </Link>
+        </Link> */}
         <Link onClick={handleClick} className="text-3xl" href="/contact">
           Contact
         </Link>
@@ -55,7 +55,7 @@ export function NavBar() {
       </div>
       <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28">
         <Link href={"/"} className="font-Anton flex flex-col tracking-widest text-xl z-0 px-3">
-          <p className="text-2xl">Insight</p>
+          <p className="text-2xl text-button-primary">Insight</p>
           <p className="text-base">Personal</p>
           <p className="text-base">Training</p>
         </Link>
@@ -78,16 +78,16 @@ export function NavBar() {
         </a>
 
         <div className="hidden lg:flex gap-6">
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/">
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/">
             Home
           </Link>
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/pricing">
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/pricing">
             Plans & Pricing
           </Link>
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/contact">
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/contact">
             Contact
           </Link>
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/about">
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/about">
             About
           </Link>
         </div>
@@ -126,19 +126,19 @@ export function NavBar() {
           className="inline flex flex-col justify-center items-center z-20 lg:hidden"
         >
           <span
-            className={`bg-black block transition-all duration-300 ease-out 
+            className={`bg-white block transition-all duration-300 ease-out 
                     h-1 w-8 rounded-sm ${
                       isOpen ? "rotate-45 translate-y-1.5" : "-translate-y-1.5"
                     }`}
           ></span>
           <span
-            className={`bg-black block transition-all duration-300 ease-out 
+            className={`bg-white block transition-all duration-300 ease-out 
                     h-1 w-8 rounded-sm my-0.5 ${
                       isOpen ? "opacity-0" : "opacity-100"
                     }`}
           ></span>
           <span
-            className={`bg-black block transition-all duration-300 ease-out 
+            className={`bg-white block transition-all duration-300 ease-out 
                     h-1 w-8 rounded-sm ${
                       isOpen ? "-rotate-45 -translate-y-1.5" : "translate-y-1.5"
                     }`}
