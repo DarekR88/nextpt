@@ -5,11 +5,11 @@
 @tailwind utilities;
 
 :root {
-  --bg-primary: #131E29;
+  --bg-primary: #202020;
   --bg-secondary: #999faa;
   --bg-tertiary: #ffffff;
   --font-primary: #ffffff;
   --font-secondary: #82b7dc;
-  --button-primary: #4996cc;
+  --button-primary: #27a3f6;
   --button-secondary: #094947; 
 }
