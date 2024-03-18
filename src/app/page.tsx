@@ -9,10 +9,10 @@ export default function Home() {
         <Image src={plankImg} alt="weights" />
       </div>
       <div
-        className="absolute bottom-0 left-0 right-0 top-0 h-full max-w-[1200px] overflow-hidden bg-fixed m-auto lg:mt-[112px]"
+        className="absolute bottom-50 left-0 right-0 top-0 h-[444px] max-w-[1200px] overflow-hidden bg-fixed m-auto lg:mt-[132px]"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
       >
-        <div className="flex h-full items-center justify-left pl-[100px]">
+        <div className="flex h-[444px] items-center justify-left pl-[100px]">
           <div className="text-white">
             <h2 className="mb-4 text-5xl font-Anton">
               REACH YOUR FITNESS{" "}
@@ -34,8 +34,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-wrap max-w-[1200px] m-auto justify-between">
-        <div className="flex flex-col max-w-[400px]">
+      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto">
+        <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px]">
           <h2 className="mb-4 text-5xl font-Anton">
             ABOUT <span className="text-button-primary">US</span>
           </h2>
@@ -45,14 +45,14 @@ export default function Home() {
             making fitness accessible and convenient for you. Whether you prefer
             sweating it out in the comfort of your own home, staying on track
             with virtual sessions via video chat, or meeting at your favorite
-            gym, we've got you covered. Say goodbye to missing sessions and
+            gym, we've got you covered. Say goodbye to missing sessionSs and
             rigid schedules, with us, you can work out anytime, anywhere. Ready
             to achieve your fitness goals on your terms? Let's get started
             today.
           </p>
         </div>
         <div className="max-w-[750px]">
-          <Image src={laptoplsImg} alt="weights" width={600} />
+          <Image src={laptoplsImg} alt="weights" />
         </div>
       </div>
     </main>
