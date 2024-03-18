@@ -1,16 +1,19 @@
 import Image from "next/image";
-import laptoplsImg from "../../public/images/laptoplandscape.jpg";
+import boxingImg from "../../public/images/darkboxing.jpg";
 import plankImg from "../../public/images/darkplank.jpg";
+import laptopImg from "../../public/images/virtualpt.jpg";
+import inpersonImg from "../../public/images/personpt.jpg";
+import classImg from "../../public/images/class.jpg";
 
 export default function Home() {
   return (
     <main>
-      <div className="overflow-hidden lg:h-[444px] lg:w-[1200px] m-auto mb-[150px]">
+      <div className="overflow-hidden lg:h-[444px] lg:w-[1200px] m-auto mb-[120px]">
         <Image src={plankImg} alt="weights" />
       </div>
       <div
         className="absolute bottom-50 left-0 right-0 top-0 h-[444px] max-w-[1200px] overflow-hidden bg-fixed m-auto lg:mt-[132px]"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}
       >
         <div className="flex h-[444px] items-center justify-left pl-[100px]">
           <div className="text-white">
@@ -34,7 +37,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto">
+      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px]">
         <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px]">
           <h2 className="mb-4 text-5xl font-Anton">
             ABOUT <span className="text-button-primary">US</span>
@@ -51,8 +54,33 @@ export default function Home() {
             today.
           </p>
         </div>
-        <div className="max-w-[750px]">
-          <Image src={laptoplsImg} alt="weights" />
+        <div className="lg:w-[750px] overflow-hidden">
+          <Image src={boxingImg} alt="weights" />
+        </div>
+      </div>
+
+      <div className="lg:mb-[120px] max-w-[1200px] m-auto">
+        <div className="text-5xl font-Anton text-center lg:mb-[75px]">
+          PERSONAL TRAINING{" "}
+          <span className="text-button-primary">SERVICES</span>
+        </div>
+        <div className="flex flex-col lg:flex-row justify-between">
+          <div className="flex lg:w-[375px]">
+            <div>
+              <Image src={inpersonImg} alt="weights" />
+            </div>
+            <div className="relative inset-0 bg-gray-700 opacity-60 rounded-md"></div>
+          </div>
+          <div className="flex lg:w-[375px]">
+            <div>
+              <Image src={laptopImg} alt="weights" />
+            </div>
+          </div>
+          <div className="flex lg:w-[375px]">
+            <div>
+              <Image src={classImg} alt="weights" />
+            </div>
+          </div>
         </div>
       </div>
     </main>
