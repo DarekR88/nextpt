@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </div> */}
 
-      <div className="relative w-[1200px] h-[444px] overflow-hidden m-auto lg:mb-[120px]">
+      <div className="relative lg:w-[1200px] lg:h-[444px] overflow-hidden m-auto lg:mb-[120px] h-[400px] mb-[75px]">
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
