@@ -53,7 +53,7 @@ export function NavBar() {
           About
         </Link>
       </div>
-      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[20px]">
+      <header className="flex flex-wrap gap-10 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[20px]">
         <Link href={"/"} className="font-Anton flex flex-col tracking-widest text-xl z-0 px-3">
           <p className="text-2xl text-button-primary">INSIGHT</p>
           <p className="text-base">Personal</p>
@@ -99,13 +99,13 @@ export function NavBar() {
           >
             <Image src={InstaIcon} alt="pfp" width={27} />
           </a>
-          <a
+          {/* <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"
             rel="noreferrer noopener"
           >
             <Image src={FacebookIcon} alt="pfp" width={25} />
-          </a>
+          </a> */}
           {/* <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"
