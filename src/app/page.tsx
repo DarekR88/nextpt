@@ -8,7 +8,7 @@ import classImg from "../../public/images/class.jpg";
 export default function Home() {
   return (
     <main>
-      <div className="overflow-hidden lg:h-[444px] lg:w-[1200px] m-auto mb-[120px]">
+      {/* <div className="overflow-hidden lg:h-[444px] lg:w-[1200px] m-auto mb-[120px]">
         <Image src={plankImg} alt="weights" />
       </div>
       <div
@@ -35,6 +35,29 @@ export default function Home() {
             </button>
           </div>
         </div>
+      </div> */}
+
+      <div className="relative w-[1200px] h-[444px] overflow-hidden m-auto lg:mb-[120px]">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src={plankImg}
+            alt="Background"
+            className="w-full h-full object-cover opacity-60"
+          />
+          {/* Dark overlay */}
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+        </div>
+
+        {/* Text Content */}
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
+            Your Text Here
+          </h1>
+          <p className="text-lg sm:text-xl md:text-2xl">
+            Your description here
+          </p>
+        </div>
       </div>
 
       <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px]">
@@ -48,7 +71,7 @@ export default function Home() {
             making fitness accessible and convenient for you. Whether you prefer
             sweating it out in the comfort of your own home, staying on track
             with virtual sessions via video chat, or meeting at your favorite
-            gym, we've got you covered. Say goodbye to missing sessionSs and
+            gym, we've got you covered. Say goodbye to missing sessions and
             rigid schedules, with us, you can work out anytime, anywhere. Ready
             to achieve your fitness goals on your terms? Let's get started
             today.
@@ -74,7 +97,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="relative z-10 container mx-auto px-4 py-24 text-white text-center">
               <h1 className="font-Anton text-3xl sm:text-5xl md:text-6xl font-bold mb-4">
-              <span className="text-button-primary">IN</span>-PERSON TRAINING
+                <span className="text-button-primary">IN</span>-PERSON TRAINING
               </h1>
               <p className="font-bold text-lg sm:text-xl md:text-2xl">
                 FITNESS AND HEALTH DELIVERED
@@ -90,7 +113,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="relative z-10 container mx-auto px-4 py-24 text-white text-center">
               <h1 className="font-Anton text-3xl sm:text-5xl md:text-6xl font-bold mb-4">
-              <span className="text-button-primary">ON</span>LINE TRAINING
+                <span className="text-button-primary">ON</span>LINE TRAINING
               </h1>
               <p className="font-bold text-lg sm:text-xl md:text-2xl">
                 FOR YOUR BUSY LIFESTYLE
@@ -106,14 +129,13 @@ export default function Home() {
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="relative z-10 container mx-auto px-4 py-24 text-white text-center">
               <h1 className="font-Anton text-3xl sm:text-5xl md:text-6xl font-bold mb-4">
-              <span className="text-button-primary">FITNESS</span>{" "}SESSIONS
+                <span className="text-button-primary">FITNESS</span> SESSIONS
               </h1>
               <p className="font-bold text-lg sm:text-xl md:text-2xl">
                 INCLUDE FAMILY AND FRIENDS
               </p>
             </div>
           </div>
-
         </div>
       </div>
     </main>
