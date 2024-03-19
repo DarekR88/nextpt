@@ -65,22 +65,55 @@ export default function Home() {
           <span className="text-button-primary">SERVICES</span>
         </div>
         <div className="flex flex-col lg:flex-row justify-between">
-          <div className="flex lg:w-[375px]">
-            <div>
-              <Image src={inpersonImg} alt="weights" />
+          <div className="relative bg-gray-900 overflow-hidden lg:h-[400px] lg:w-[375px]">
+            <Image
+              src={inpersonImg}
+              alt="weights"
+              className="absolute inset-0 w-full h-full object-cover opacity-50"
+            />
+            <div className="absolute inset-0 bg-black opacity-50"></div>
+            <div className="relative z-10 container mx-auto px-4 py-24 text-white text-center">
+              <h1 className="font-Anton text-3xl sm:text-5xl md:text-6xl font-bold mb-4">
+              <span className="text-button-primary">IN</span>-PERSON TRAINING
+              </h1>
+              <p className="font-bold text-lg sm:text-xl md:text-2xl">
+                FITNESS AND HEALTH DELIVERED
+              </p>
             </div>
-            <div className="relative inset-0 bg-gray-700 opacity-60 rounded-md"></div>
           </div>
-          <div className="flex lg:w-[375px]">
-            <div>
-              <Image src={laptopImg} alt="weights" />
+          <div className="relative bg-gray-900 overflow-hidden lg:h-[400px] lg:w-[375px]">
+            <Image
+              src={laptopImg}
+              alt="weights"
+              className="absolute inset-0 w-full h-full object-cover opacity-50"
+            />
+            <div className="absolute inset-0 bg-black opacity-50"></div>
+            <div className="relative z-10 container mx-auto px-4 py-24 text-white text-center">
+              <h1 className="font-Anton text-3xl sm:text-5xl md:text-6xl font-bold mb-4">
+              <span className="text-button-primary">ON</span>LINE TRAINING
+              </h1>
+              <p className="font-bold text-lg sm:text-xl md:text-2xl">
+                FOR YOUR BUSY LIFESTYLE
+              </p>
             </div>
           </div>
-          <div className="flex lg:w-[375px]">
-            <div>
-              <Image src={classImg} alt="weights" />
+          <div className="relative bg-gray-900 overflow-hidden lg:h-[400px] lg:w-[375px]">
+            <Image
+              src={classImg}
+              alt="weights"
+              className="absolute inset-0 w-full h-full object-cover opacity-50"
+            />
+            <div className="absolute inset-0 bg-black opacity-50"></div>
+            <div className="relative z-10 container mx-auto px-4 py-24 text-white text-center">
+              <h1 className="font-Anton text-3xl sm:text-5xl md:text-6xl font-bold mb-4">
+              <span className="text-button-primary">FITNESS</span>{" "}SESSIONS
+              </h1>
+              <p className="font-bold text-lg sm:text-xl md:text-2xl">
+                INCLUDE FAMILY AND FRIENDS
+              </p>
             </div>
           </div>
+
         </div>
       </div>
     </main>

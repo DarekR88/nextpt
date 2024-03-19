@@ -20,7 +20,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gradient-to-r from-zinc-900 to-gray-900 text-font-primary`}>
+      <body className={`${inter.className} bg-gradient-to-r from-zinc-900 to-slate-950 text-font-primary`}>
         <NavBar />
         {children}
         <Footer />
