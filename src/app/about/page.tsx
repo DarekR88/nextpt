@@ -30,7 +30,7 @@ export default function About() {
           <span className="text-button-primary">360&#176;</span> GUIDANCE
         </h2>
         <p className="text-center">
-          At our personal training studio, we believe in a holistic approach to
+          At Insight personal training, we believe in a holistic approach to
           fitness and well-being. That's why all of our one-on-one personal
           training plans are designed to address not only physical fitness but
           also nutritional and therapeutic needs. Our expert trainers work
@@ -48,12 +48,12 @@ export default function About() {
             <span className="text-button-primary">S</span>UPPORT
           </h2>
           <p className="text-center lg:text-left">
-            At Insight Personal Training, we understand that changing your life
-            can be difficult. That's why when you sign up with a personal
-            trainer from Insight Personal Training, you're not just getting a
-            workout plan, you're gaining a dedicated partner that has your back
-            every step of the way. With Insight Personal Training, you're never
-            alone in your pursuit of a healthier, stronger you.
+            We understand that changing your life can be difficult. That's why
+            when you sign up with a personal trainer from Insight Personal
+            Training, you're not just getting a workout plan, you're gaining a
+            dedicated partner that has your back every step of the way. With
+            Insight Personal Training, you're never alone in your pursuit of a
+            healthier, stronger you.
           </p>
         </div>
         <div className="lg:w-[750px] lg:h-[350px] overflow-hidden mb-[20px]">

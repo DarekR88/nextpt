@@ -40,7 +40,7 @@ export default function Plans() {
           <span className="text-button-primary">360&#176;</span> GUIDANCE
         </h2>
         <p className="text-center">
-          At our personal training studio, we believe in a holistic approach to
+          At Insight personal training, we believe in a holistic approach to
           fitness and well-being. That's why all of our one-on-one personal
           training plans are designed to address not only physical fitness but
           also nutritional and therapeutic needs. Our expert trainers work
