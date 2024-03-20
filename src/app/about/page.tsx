@@ -1,5 +1,6 @@
 import Image from "next/image";
 import stretchImg from "../../../public/images/stretch.jpg";
+import gybImg from "../../../public/images/gyb.jpg";
 
 export default function About() {
   return (
@@ -41,6 +42,24 @@ export default function About() {
         </p>
       </div>
 
+      <div className="flex flex-col-reverse lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
+        <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px] px-[20px]">
+          <h2 className="mb-4 text-5xl font-Anton text-center">
+            <span className="text-button-primary">S</span>UPPORT
+          </h2>
+          <p className="text-center lg:text-left">
+            At Insight Personal Training, we understand that changing your life
+            can be difficult. That's why when you sign up with a personal
+            trainer from Insight Personal Training, you're not just getting a
+            workout plan, you're gaining a dedicated partner that has your back
+            every step of the way. With Insight Personal Training, you're never
+            alone in your pursuit of a healthier, stronger you.
+          </p>
+        </div>
+        <div className="lg:w-[750px] lg:h-[350px] overflow-hidden mb-[20px]">
+          <Image src={gybImg} alt="weights" />
+        </div>
+      </div>
     </main>
   );
 }
