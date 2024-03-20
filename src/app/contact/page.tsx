@@ -7,7 +7,7 @@ import emailSVG from "../../../public/icons/mail.svg";
 export default function Contact() {
   return (
     <main>
-      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
+      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[80px] mb-[50px]">
         <div className="lg:w-[750px] lg:h-[350px] overflow-hidden mb-[20px]">
           <Image src={contactImg} alt="weights" />
         </div>
@@ -21,6 +21,9 @@ export default function Contact() {
             assist you on your fitness journey. Take the first step towards
             changing your life today.
           </p>
+          <p className="text-center mb-[15px]">
+            Hours of Operation: 9:00am - 9:00pm
+          </p>
 
           <div className="flex flex-col gap-4 lg:flex-row m-auto lg:gap-10">
             <div>
@@ -30,7 +33,12 @@ export default function Contact() {
                 rel="noreferrer noopener"
                 className="flex flex-row justify-center"
               >
-                <Image src={phoneSVG} alt="pfp" width={23} className="mr-[5px]" />
+                <Image
+                  src={phoneSVG}
+                  alt="pfp"
+                  width={23}
+                  className="mr-[5px]"
+                />
                 <span>Call or Text</span>
               </a>
               <a
@@ -49,7 +57,12 @@ export default function Contact() {
                 rel="noreferrer noopener"
                 className="flex flex-row justify-center"
               >
-                <Image src={emailSVG} alt="pfp" width={23} className="mr-[5px]" />
+                <Image
+                  src={emailSVG}
+                  alt="pfp"
+                  width={23}
+                  className="mr-[5px]"
+                />
                 <span>E-mail</span>
               </a>
               <a
@@ -65,6 +78,18 @@ export default function Contact() {
         </div>
       </div>
 
+      <div className="flex flex-col max-w-[1200px] m-auto lg:mb-[120px] mb-[50px] px-[20px]">
+        <h2 className="mb-4 text-5xl font-Anton text-center">
+          <span className="text-button-primary">DEDICATED</span> TO SUPPORT
+        </h2>
+        <p className="text-center text-2xl font-bold">
+          The first step towards changing your life for the better can be the
+          most difficult and uncomfortable. At Insight personal training, our
+          sensitive and dedicated staff will treat you with the utmost respect.
+          Our support systems are one of a kind and will provide the best
+          environment for achieving your fitness goals.
+        </p>
+      </div>
     </main>
   );
 }
