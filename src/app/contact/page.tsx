@@ -1,9 +1,10 @@
 import Image from "next/image";
+import CalendarComponent from "@/components/Calendar";
 import contactImg from "../../../public/images/darkphone.jpg";
 import phoneSVG from "../../../public/icons/phone-svgrepo-com.svg";
 import emailSVG from "../../../public/icons/mail.svg";
 
-export default function Plans() {
+export default function Contact() {
   return (
     <main>
       <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
@@ -29,7 +30,7 @@ export default function Plans() {
                 rel="noreferrer noopener"
                 className="flex flex-row justify-center"
               >
-                <Image src={phoneSVG} alt="pfp" width={23} />
+                <Image src={phoneSVG} alt="pfp" width={23} className="mr-[5px]" />
                 <span>Call or Text</span>
               </a>
               <a
@@ -48,7 +49,7 @@ export default function Plans() {
                 rel="noreferrer noopener"
                 className="flex flex-row justify-center"
               >
-                <Image src={emailSVG} alt="pfp" width={23} />
+                <Image src={emailSVG} alt="pfp" width={23} className="mr-[5px]" />
                 <span>E-mail</span>
               </a>
               <a
@@ -63,6 +64,7 @@ export default function Plans() {
           </div>
         </div>
       </div>
+
     </main>
   );
 }
