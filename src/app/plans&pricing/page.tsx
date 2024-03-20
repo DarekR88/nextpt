@@ -35,7 +35,7 @@ export default function Plans() {
         </div>
       </div>
 
-      <div className="flex lg:flex-col max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
+      <div className="flex flex-col max-w-[1200px] m-auto lg:mb-[120px] mb-[50px] px-[20px]">
         <h2 className="mb-4 text-5xl font-Anton text-center">
           <span className="text-button-primary">360&#176;</span> GUIDANCE
         </h2>
@@ -52,7 +52,7 @@ export default function Plans() {
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
+      <div className="flex flex-col-reverse lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
         <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px] px-[20px]">
           <h2 className="mb-4 text-5xl font-Anton text-center">
             <span className="text-button-primary">IN</span>-PERSON
@@ -65,12 +65,12 @@ export default function Plans() {
             discover the freedom to train on your terms.
           </p>
         </div>
-        <div className="lg:w-[750px] lg:h-[350px] overflow-hidden">
+        <div className="lg:w-[750px] lg:h-[350px] overflow-hidden mb-[20px]">
           <Image src={helpImg} alt="weights" />
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
+      <div className="flex flex-col-reverse lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
         <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px] px-[20px]">
           <h2 className="mb-4 text-5xl font-Anton text-center">
             <span className="text-button-primary">ON</span>LINE
@@ -83,12 +83,12 @@ export default function Plans() {
             training option.
           </p>
         </div>
-        <div className="lg:w-[750px] lg:h-[350px] overflow-hidden">
+        <div className="lg:w-[750px] lg:h-[350px] overflow-hidden mb-[20px]">
           <Image src={laptopImg} alt="weights" />
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
+      <div className="flex flex-col-reverse lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
         <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px] px-[20px]">
           <h2 className="mb-4 text-5xl font-Anton text-center">
             <span className="text-button-primary">FITNESS</span> SESSIONS
@@ -104,7 +104,7 @@ export default function Plans() {
             health and wellness goals together.
           </p>
         </div>
-        <div className="lg:w-[750px] lg:h-[350px] overflow-hidden">
+        <div className="lg:w-[750px] lg:h-[350px] overflow-hidden mb-[20px]">
           <Image src={groupImg} alt="weights" />
         </div>
       </div>
