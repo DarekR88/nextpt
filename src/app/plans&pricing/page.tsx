@@ -1,10 +1,13 @@
 import Image from "next/image";
-import weightImg from "../../../public/images/weights.jpg"
+import weightImg from "../../../public/images/weights.jpg";
+import helpImg from "../../../public/images/help.jpg";
+import laptopImg from "../../../public/images/virtualtrain.jpg";
+import groupImg from "../../../public/images/groupsession.jpg";
 
 export default function Plans() {
   return (
     <main>
-            <div className="relative lg:w-[1200px] lg:h-[444px] overflow-hidden m-auto lg:mb-[120px] h-[400px] mb-[75px]">
+      <div className="relative lg:w-[1200px] lg:h-[444px] overflow-hidden m-auto lg:mb-[120px] h-[400px] mb-[75px]">
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
@@ -19,9 +22,7 @@ export default function Plans() {
         {/* Text Content */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center">
           <h2 className="mb-4 text-5xl font-Anton">
-            PLANS{" "}
-            <span className="text-button-primary">AND</span>
-            {" "}RICING
+            PLANS <span className="text-button-primary">AND</span> RICING
           </h2>
           <button
             type="button"
@@ -29,8 +30,65 @@ export default function Plans() {
             data-twe-ripple-init
             data-twe-ripple-color="light"
           >
-            SIGN UP TODAY
+            FREE EVALUATION
           </button>
+        </div>
+      </div>
+
+      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
+        <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px] px-[20px]">
+          <h2 className="mb-4 text-5xl font-Anton text-center">
+            <span className="text-button-primary">IN</span>-PERSON
+          </h2>
+          <p>
+            Choose to meet our expert trainers at the comfort of your home, a
+            nearby gym, or a picturesque park. Wherever you feel most motivated,
+            we'll bring our expertise to you, ensuring your fitness journey is
+            both effective and enjoyable. Take control of your workouts and
+            discover the freedom to train on your terms.
+          </p>
+        </div>
+        <div className="lg:w-[750px] lg:h-[350px] overflow-hidden">
+          <Image src={helpImg} alt="weights" />
+        </div>
+      </div>
+
+      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
+        <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px] px-[20px]">
+          <h2 className="mb-4 text-5xl font-Anton text-center">
+            <span className="text-button-primary">ON</span>LINE
+          </h2>
+          <p>
+            Transform your fitness routine with our online video call sessions.
+            Our expert trainers provide personalized workouts and real-time
+            feedback, ensuring you stay motivated from anywhere. Elevate your
+            workouts and achieve your fitness goals with our convenient virtual
+            training option.
+          </p>
+        </div>
+        <div className="lg:w-[750px] lg:h-[350px] overflow-hidden">
+          <Image src={laptopImg} alt="weights" />
+        </div>
+      </div>
+
+      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
+        <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px] px-[20px]">
+          <h2 className="mb-4 text-5xl font-Anton text-center">
+            <span className="text-button-primary">FITNESS</span>{" "}SESSIONS
+          </h2>
+          <p>
+            Bring the energy of a fitness class directly to your community with
+            our exclusive hosting option. Whether it's kickboxing, yoga, or
+            cardio, gather your family, friends, and neighbors for a fun and
+            invigorating workout experience led by our expert instructors. With
+            customizable class options tailored to your preferences, you can
+            enjoy the benefits of group fitness in the comfort of your own
+            space. Get ready to inspire and motivate your circle to reach their
+            health and wellness goals together.
+          </p>
+        </div>
+        <div className="lg:w-[750px] lg:h-[350px] overflow-hidden">
+          <Image src={groupImg} alt="weights" />
         </div>
       </div>
     </main>
