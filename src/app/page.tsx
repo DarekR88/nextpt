@@ -51,7 +51,7 @@ export default function Home() {
             flexibility. Our expert trainers make fitness convenient for you,
             whether at home, via virtual sessions, or at your favorite gym. Say
             goodbye to missed sessions and rigid schedules—work out anytime,
-            anywhere. Ready to achieve your fitness goals on your terms? Let's
+            anywhere. Ready to achieve your fitness goals on your terms? Let&#39;s
             get started today.
           </p>
         </div>

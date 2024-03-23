@@ -31,13 +31,13 @@ export default function About() {
         </h2>
         <p className="text-center">
           At Insight personal training, we believe in a holistic approach to
-          fitness and well-being. That's why all of our one-on-one personal
+          fitness and well-being. That&#39;s why all of our one-on-one personal
           training plans are designed to address not only physical fitness but
           also nutritional and therapeutic needs. Our expert trainers work
           closely with each client to develop customized plans that encompass
           comprehensive dietary guidance and therapeutic techniques aimed at
           enhancing overall health and vitality. With our integrated approach,
-          you'll not only achieve your fitness goals but also gain valuable
+          you&#39;ll not only achieve your fitness goals but also gain valuable
           knowledge and tools to support your long-term well-being.
         </p>
       </div>
@@ -48,11 +48,11 @@ export default function About() {
             <span className="text-button-primary">S</span>UPPORT
           </h2>
           <p className="text-center lg:text-left">
-            We understand that changing your life can be difficult. That's why
+            We understand that changing your life can be difficult. That&#39;s why
             when you sign up with a personal trainer from Insight Personal
-            Training, you're not just getting a workout plan, you're gaining a
+            Training, you&#39;re not just getting a workout plan, you&#39;re gaining a
             dedicated partner that has your back every step of the way. With
-            Insight Personal Training, you're never alone in your pursuit of a
+            Insight Personal Training, you&#39;re never alone in your pursuit of a
             healthier, stronger you.
           </p>
         </div>

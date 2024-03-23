@@ -4,7 +4,6 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { BurgerMenu } from "@/components/BurgerMenu";
 import MailIcon from "../../public/icons/mail_icon.svg";
 import XIcon from "../../public/icons/twitter_icon.svg";
 import FacebookIcon from "../../public/icons/facebook-svgrepo-com.svg";

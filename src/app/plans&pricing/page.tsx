@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import weightImg from "../../../public/images/weights.jpg";
 import helpImg from "../../../public/images/help.jpg";
 import laptopImg from "../../../public/images/virtualtrain.jpg";
@@ -41,13 +42,13 @@ export default function Plans() {
         </h2>
         <p className="text-center">
           At Insight personal training, we believe in a holistic approach to
-          fitness and well-being. That's why all of our one-on-one personal
+          fitness and well-being. That&#39;s why all of our one-on-one personal
           training plans are designed to address not only physical fitness but
           also nutritional and therapeutic needs. Our expert trainers work
           closely with each client to develop customized plans that encompass
           comprehensive dietary guidance and therapeutic techniques aimed at
           enhancing overall health and vitality. With our integrated approach,
-          you'll not only achieve your fitness goals but also gain valuable
+          you&#39;ll not only achieve your fitness goals but also gain valuable
           knowledge and tools to support your long-term well-being.
         </p>
       </div>
@@ -60,7 +61,7 @@ export default function Plans() {
           <p className="text-center lg:text-left">
             Choose to meet our expert trainers at the comfort of your home, a
             nearby gym, or a picturesque park. Wherever you feel most motivated,
-            we'll bring our expertise to you, ensuring your fitness journey is
+            we&#39;ll bring our expertise to you, ensuring your fitness journey is
             both effective and enjoyable. Take control of your workouts and
             discover the freedom to train on your terms.
           </p>
@@ -95,7 +96,7 @@ export default function Plans() {
           </h2>
           <p className="text-center lg:text-left">
             Bring the energy of a fitness class directly to your community with
-            our exclusive hosting option. Whether it's kickboxing, yoga, or
+            our exclusive hosting option. Whether it&#39;s kickboxing, yoga, or
             cardio, gather your family, friends, and neighbors for a fun and
             invigorating workout experience led by our expert instructors. With
             customizable class options tailored to your preferences, you can
